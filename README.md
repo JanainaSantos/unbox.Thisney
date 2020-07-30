@@ -34,7 +34,13 @@
 
     Descrição: Este método é utilizado para consultar os cliente
     ```
-    URL: GET /api/venda
+    URL: GET /api/cliente
+    ```
+6.	Cadastrar Cliente
+
+    Descrição: Este método é utilizado para cadastrar os cliente
+    ```
+    URL: POST /api/cliente
     ```
     
 ## CRIADO PELO VSCODE

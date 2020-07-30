@@ -36,3 +36,5 @@
     ```
     URL: GET /api/venda
     ```
+    
+## CRIADO PELO VSCODE

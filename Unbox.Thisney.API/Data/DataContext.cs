@@ -9,7 +9,11 @@ namespace Unbox.Thisney.API.Data
         {
         }
 
-        public DbSet<Venda> Vendas { get; set; }
+        public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Estoque> Estoque { get; set; }
+        public DbSet<Evento> Evento { get; set; }
+        public DbSet<Ingresso> Ingresso { get; set; }
+        public DbSet<Venda> Venda { get; set; }
 
     }
 }

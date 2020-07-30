@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\Unbox.Thisney.API.csproj": {}
+    "C:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\Unbox.Thisney.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\Unbox.Thisney.API.csproj": {
+    "C:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\Unbox.Thisney.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\Unbox.Thisney.API.csproj",
+        "projectUniqueName": "C:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\Unbox.Thisney.API.csproj",
         "projectName": "Unbox.Thisney.API",
-        "projectPath": "c:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\Unbox.Thisney.API.csproj",
+        "projectPath": "C:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\Unbox.Thisney.API.csproj",
         "packagesPath": "C:\\Users\\60003122\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\obj\\",
+        "outputPath": "C:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

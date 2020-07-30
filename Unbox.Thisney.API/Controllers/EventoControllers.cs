@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -7,24 +8,24 @@ using Unbox.Thisney.API.Model;
 
 namespace Unbox.Thisney.API.Controllers
 {
-    [Route("api/cliente")]
     [ApiController]
-    public class ClienteControllers : ControllerBase
+    [Route("api/evento")]
+    public class EventoControllers : ControllerBase
     {
         public readonly DataContext _context;
-        public ClienteControllers(DataContext context)
+        public EventoControllers(DataContext context)
         {
             this._context = context;
         }
-
         // GET api/values
         [HttpGet]
-        public async Task<IActionResult> Get()
+        [Route("")]
+        public async Task<ActionResult> Get()
         {
             try
             {
-                var clientes = await _context.Cliente.ToListAsync();
-                return Ok(clientes);
+                var eventos = await _context.Evento.ToListAsync();
+                return Ok(eventos);
             }
             catch (System.Exception)
             {
@@ -34,13 +35,14 @@ namespace Unbox.Thisney.API.Controllers
 
         // POST api/values
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody]Cliente model)
+        [Route("")]
+        public async Task<ActionResult> Post([FromBody]Evento model)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    _context.Cliente.Add(model);
+                    _context.Evento.Add(model);
                     await _context.SaveChangesAsync();
                     return Ok(model);
                 }               

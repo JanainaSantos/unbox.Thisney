@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BcXQXwI2Ya12azHhqs8oH0TC4jdfDzvBiunLilgYSbtXzbQLu5T+0z3dWQPZsxZzJA0+PMVmIdcSHGusTHMZ5g==",
+  "dgSpecHash": "zKqimR5qiaIpDfpDFI2OR1lahmZU7aooT8Rk3GETVh5IVlxhsLRKB9UX1i/jkTHQ4WafBJKPfIxZR/OVFyQBvA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\Unbox.Thisney.API.csproj",
+  "projectFilePath": "C:\\Users\\60003122\\Desktop\\Janaina\\UNBOX\\Unbox.Thisney\\Unbox.Thisney.API\\Unbox.Thisney.API.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.entityframeworkcore\\2.2.0\\microsoft.entityframeworkcore.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.entityframeworkcore.abstractions\\2.2.0\\microsoft.entityframeworkcore.abstractions.2.2.0.nupkg.sha512",

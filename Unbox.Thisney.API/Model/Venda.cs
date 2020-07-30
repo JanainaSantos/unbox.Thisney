@@ -10,8 +10,8 @@ namespace Unbox.Thisney.API.Model
         
         [Required(ErrorMessage = "Este campo é obrigatório")]
         public DateTime Data { get; set; }
-        public int idEvento { get; set; }
-        public Evento evento { get; set; }
+        public int idIngresso { get; set; }
+        public Ingresso ingresso { get; set; }
         public int idCliente { get; set; }
         public Cliente cliente { get; set; }
     }
